@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MasterManifestRequest xmlns:cm="http://bayan.gov.om/schema/common" xmlns:cmf="http://bayan.gov.om/schema/common-manifest" xmlns:tr="http://bayan.gov.om/schema/transport" xmlns:tt="http://bayan.gov.om/schema/item" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="..\..\Schema\MasterManifestRequest.xsd">
+<MessageHeader>
+<cm:MessageId>110620209</cm:MessageId>
+<cm:ServiceID>MMAFRQ_IN</cm:ServiceID>
+<cm:SchemaVersionNo>1.5</cm:SchemaVersionNo>
+<cm:CompanyCode>C00003526</cm:CompanyCode>
+<cm:UserId>SHAGNT14</cm:UserId>
+<cm:MessageDate>110620209</cm:MessageDate>
+<MessageType>N</MessageType>
+<VASCode>VASCODE</VASCode>
+<ProcessingIndicator>D</ProcessingIndicator>
+</MessageHeader>
+<ManifestRecord>
+<ManifestHeader>
+<inboundOutbound>I</inboundOutbound>
+<transportMode>S</transportMode>
+<carrierArrivalRegNo>N/A</carrierArrivalRegNo>
+<portDischarge>OMSOH</portDischarge>
+<finalDestination>OMSOH</finalDestination>
+<eta>2020-06-11T12:48:00</eta>
+<masterName/>
+<masterNationality/>
+<conveyanceNo>078W</conveyanceNo>
+<conveyanceNationality/>
+<carrier>CMA CGM</carrier>
+<carrierNationality>US</carrierNationality>
+<carrierManifestNo></carrierManifestNo>
+<imoNumber>Vessel IMO</imoNumber>
+<shipName>SSL BHARAT</shipName>
+</ManifestHeader>
+<ContainerList>
+<Container>
+<sequenceNo>1</sequenceNo>
+<containerNo>VSBU2043683</containerNo>
+<containerTypeCode>22G0</containerTypeCode>
+<loadStatus>8</loadStatus>
+<tareWeight>1500</tareWeight>
+<grossWeight>9427.89</grossWeight>
+<sealNo>ACT32123</sealNo>
+</Container>
+</ContainerList>
+<TransportDocumentList>
+</TransportDocumentList>
+<TripList>
+<TripRoute>
+<sequenceNo>1</sequenceNo>
+<locationType>FPC</locationType>
+<countryCode>IN</countryCode>
+<portCode>INKTP</portCode>
+</TripRoute>
+<TripRoute>
+<sequenceNo>2</sequenceNo>
+<locationType>POC</locationType>
+<countryCode>OM</countryCode>
+<portCode>OMSOH</portCode>
+</TripRoute>
+<TripRoute>
+<sequenceNo>3</sequenceNo>
+<locationType>FNP</locationType>
+<countryCode>OM</countryCode>
+<portCode>OMSOH</portCode>
+</TripRoute>
+</TripList>
+</ManifestRecord>
+</MasterManifestRequest>
